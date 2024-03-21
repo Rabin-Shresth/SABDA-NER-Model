@@ -38,6 +38,8 @@ This project had taught us alot not only accomplishing the project but teamwork,
 
 You may reach out to us if you want any help regarding our project
 
+**Connect us in LinkedIn**
+
 * [Rabin Shrestha](https://www.linkedin.com/in/rabin-shrestha-a0669a274/)
 * [Anup Dumre](https://www.linkedin.com/in/anupdumre/)
 
