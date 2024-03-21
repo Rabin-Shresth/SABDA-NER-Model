@@ -34,7 +34,9 @@ We have used **NLTK** (a toolkit build for working with NLP) for tokenization.
 * Incoming challenges are further to be discussed.
 
 ### Conclusion
-This project had taught us alot not only accomplishing the project but teamwork, time management and even value of time. I would like to thank my fellow teammates for all the valuable insights and dedication they provided. Those out there reading this you can find the reports in **Reports** section.
+This project had taught us alot not only accomplishing the project but teamwork, time management and even value of time. I would like to thank my fellow teammates for all the valuable insights and dedication they provided. 
+
+* Those out there reading this you can find the reports in **Reports** section.
 
 You may reach out to us if you want any help regarding our project
 
