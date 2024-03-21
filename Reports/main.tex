@@ -1,0 +1,110 @@
+\include{commands}
+
+\begin{document}
+
+
+ 
+\include{0ACover/0cover}
+\include{0ACover/1title }
+ 
+\pagenumbering{roman}
+\include{0ACover/3declaration}
+\include{0ACover/CERTIFICATE OF APPROVAL}
+\include{0ACover/2copyright}
+
+
+\include{0ACover/5departmentAcceptance}
+\include{0ACover/6acknowledgement}
+
+\include{0HAbstract/abstract}
+
+%=================TOC=========================================================================
+
+\cftsetindents{section}{1.5em}{2.1em}
+\cftsetindents{subsection}{3.6em}{3.1em}
+
+\chapter*{\centerline{TABLE OF CONTENTS}}
+\addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
+\def\contentsname{\empty}
+\tableofcontents
+\clearpage
+
+
+
+
+\chapter*{\centerline{LIST OF FIGURES}}
+\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+\def\listfigurename{\empty}
+\newcommand*{\noaddvspace}{\renewcommand*{\addvspace}[1]{}}
+\addtocontents{lof}{\protect\noaddvspace}
+\listoffigures
+\clearpage
+
+\chapter*{\centerline{LIST OF TABLES}}
+\addcontentsline{toc}{chapter}{LIST OF TABLES}
+\def\listtablename{\empty}
+\addtocontents{lot}{\protect\noaddvspace}
+\listoftables
+\clearpage
+
+
+
+
+\include{0IAbbreviations/abbreviations}
+
+
+
+% \newpage
+%=============================================================================
+
+
+\pagenumbering{arabic}
+
+%=====================Report Body=============================================
+
+
+\include{1Introduction/introduction}
+\include{2Literaturereview/literaturereview}
+\include{3Requirement Analysis/Requirement Analysis}
+\include{3Methodology/methodology}
+\include{4IMPLEMENTATION DETAILS/IMPLEMENTATION DETAILS}
+\include{4Results/results}
+\include{5DiscussionAndAnalysis/discussionAndAnalysis}
+\include{6FutureEnhancement/futureEnhancement}
+\include{7Conclusion/conclusion}
+% \include{6ProjectSchedule/schedule}
+
+
+
+% ================================Appendices Setup================================================
+
+
+\begin{appendices}
+\renewcommand\thechapter{A}
+\renewcommand\thefigure{\thechapter.\arabic{figure}}
+\chapter*{APPENDIX A}
+\addtocontents{toc}{\textbf{APPENDIX A}}
+\input{Appendix/appendix1.tex}
+\input{Appendix/appendix2.tex}
+\input{Appendix/appendix3.tex}
+\input{Appendix/appendix4.tex}
+\end{appendices}
+
+
+
+%========================References setup=========================================================
+\newpage
+% \bibliographystyle{plain}
+\bibliographystyle{unsrt}
+
+ 
+\bibliography{References/references}
+
+\addcontentsline{toc}{chapter}{REFERENCES}
+
+%=============================================================================================
+
+
+
+%=========================================================================
+\end{document}

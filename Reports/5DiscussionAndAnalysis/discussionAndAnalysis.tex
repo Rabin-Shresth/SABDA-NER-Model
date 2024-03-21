@@ -1,0 +1,32 @@
+ % \chapter{DISCUSSION AND ANALYSIS}
+ \section{Discussion and Analysis}
+
+% (20\% of Report Length)
+
+% a. Quantitatively presenting output of verification and validation procedures
+
+% b. Comparing between theory and simulation values
+
+% c. Comparing with state-of-the-art work performed by other authors
+
+% d. Performing error analysis and pinpointing possible sources of error
+Our Project was initiated with the goal of creating a Nepali language based NER application software for the purpose of identifying and analysing Nepali texts. In this project we were able to develop a Natural Language Processing application that recognizes and classifies Nepali named entities, specifically Personal names, Organisation names and Location. \\
+
+We performed our initial research by looking into the different kinds of Named Entity Recognition software's that exist in the market. The most prominent NER systems existing in the current sphere are displaCy, IndicNER, DanfeNER, etc. There systems are popular in their own regards but they have several setbacks in regards to the accracy and precision of their data due to the quality and diversity of the training data. Especially IndicNER and DanfeNER have a added ambiguity due to the linguistic complexities, context sensitivity and domain specificity of their target language. With SABDA-NER we aimed to work on the pre-established knowledge of their limitations like entity coverage, scope, scalability and performance to create a more updated system.\\
+ 
+The pre-existing systems are based on trained multiple neural models such as BiLSTM,
+BiLSTMCNN, BiLSTM-CRF, and BiLSTM-CNN-CRF with different word embedding. Trained multi-nerual models like BiLSTM, CNN, CRF models offer significant importance in NER systems as they are the customarily used to in Natural Language Processing. However, they have a computational complexity due to their limited scalability, overfitting due to noisy data, heavy data dependency and resource intensiveness. \\\
+
+So to overcome those limitation, our application has been developed using BERT model which is a state-of-the-art language model developed by Google AI for natural language processing (NLP) tasks. 
+WE chose this model because it has achieved remarkable success in various NLP tasks, especially named entity recognition (NER). \\
+
+For the development of our model we used hardware accelerator T4 GPU to train our model imported seqeval library to calculate the overall precision, overall recall, and overall f1 score. Seqeval is a Python library for sequence labeling evaluation commonly used to evaluate the performance of models that perform sequence labeling tasks like NER models. It provides functions to compute common evaluation metrics such as precision, recall and F1 score for sequence labelling tasks. These metrics are standard in the field of natural language processing (NLP) and machine learning for evaluating the performance.\\
+
+The results presented by our model is highly precise and has a good scope for further expansion. The average precision of our trained model is  95.52\%. The average accuracy score after training our BERT based NER model came to be around 99.51\%. The overall recall was averaged at 96.94\%. As for the data loss during validation and training stages, the overall validation loss was around 1.67\% where as the average training loss was only 3.77\%. \\
+
+The progress of our project has exceeded our initial target. There has been an increase in the precision and accuracy of our model in predicting and classifying named entities over seven iterations of training. The gradual and definite decline in the training loss is a significant evidence on the small margin of error between the predicted output and the actual target values during the training phase of our machine learning model.\\
+
+The potential applications of SABDA NER is a crucial component in determining the scope of out project, it includes NLP projects question-answering, sentiment analysis, machine translation, and more.
+
+
+

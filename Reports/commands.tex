@@ -1,0 +1,172 @@
+\documentclass[12pt]{report}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{hhline}
+\usepackage[]{graphicx}
+\usepackage[left=1.5in, right=1in,top=1in,bottom=1in,headheight=6pt, a4paper]{geometry}
+\usepackage{titling}
+\usepackage{booktabs}
+\usepackage{natbib}
+% \usepackage{biblatex}
+%\usepackage{times}
+\usepackage{microtype}
+\usepackage[utf8x]{inputenc}
+\usepackage{xcolor}
+\usepackage{datetime2}
+
+\usepackage{enumitem}
+\usepackage[font=normalsize,tableposition=top]{caption}
+\usepackage{etoolbox}\usepackage{setspace}
+\usepackage[explicit]{}
+\usepackage{algpseudocode, algorithm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{pgfgantt}
+\usepackage{adjustbox}
+\usepackage{multicol}
+\usepackage{mathptmx}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{amsmath, amsfonts}
+\usepackage{pdflscape}
+\usepackage{everypage-1x}
+\usepackage{wrapfig}
+\usepackage{scrextend}
+\usepackage{etoolbox}
+\usepackage{appendix}
+
+
+
+\renewcommand\appendixtocname{APPENDIX}
+\renewcommand\appendixpagename{APPENDIX}
+\renewcommand{\bibname}{REFERENCES}
+
+%\usetikzlibrary{positioning}
+% \ganttset{group/.append style={orange},
+% milestone/.append style={red},
+% progress label node anchor/.append style={text=red}}
+
+\linespread{1.3}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0em}
+
+
+%--------------------
+
+
+
+ 
+
+
+%------ SET DOCUMENT GEOMETRY ------%
+\usepackage{geometry}
+\geometry{a4paper, left=1.5in, top=1in, bottom=1in, right=1in}
+
+
+%------ FORMAT CHAPTER, SECTION, AND SUBSECTION TITLE ------%
+  \titleformat{\chapter}{
+  \normalfont\fontsize{12}{15}\bfseries
+  }{\thechapter}{1em}{}
+
+  \titleformat{\section}{
+  \normalfont\fontsize{12}{15}\bfseries
+  }{\thesection}{1em}{}
+
+  \titleformat{\subsection}{
+  \normalfont\fontsize{12}{15}\bfseries
+  }{\thesubsection}{1em}{}
+
+  \titlespacing{\chapter}{0pt}{-0.5in}{-0.5em}
+  \titlespacing{\section}{0pt}{0pt}{-1em}
+  \titlespacing{\subsection}{0pt}{0pt}{-1em}
+
+
+%------ SET SPACING AND INDENTS ------%
+\renewcommand{\baselinestretch}{1.5} 
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+
+
+%------ SETUP LINKS ------%
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+
+%------ FORMAT TABLE OF CONTENTS ------%
+\usepackage{tocloft}
+
+
+\cftsetindents{section}{1.4em}{1.75em}
+\cftsetindents{subsection}{3.2em}{2.6em}
+\setlength{\cftbeforetoctitleskip}{-2.5em}
+\setlength{\cftbeforechapskip}{0.25em}
+
+\renewcommand{\cftchapleader}{\dotfill}
+
+\renewcommand{\cftdotsep}{1.5}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+
+\setlength{\cftbeforeloftitleskip}{-2.5em}
+\setlength{\cftbeforelottitleskip}{-2.5em}
+
+\setlength{\cftfigindent}{0pt}
+\setlength{\cfttabindent}{0pt}
+
+\renewcommand{\cftfigfont}{Figure }
+\renewcommand{\cfttabfont}{Table }
+
+
+%------ FORMAT TABLE CAPTIONS ------%
+\usepackage{caption} 
+\captionsetup[table]{skip=10pt}
+
+
+
+\newcommand{\Lpagenumber}{\ifdim\textwidth=\linewidth\else\bgroup
+  \dimendef\margin=0 %use \margin instead of \dimen0
+  \ifodd\value{page}\margin=\oddsidemargin
+  \else\margin=\evensidemargin
+  \fi
+  \raisebox{\dimexpr -\topmargin-\headheight-\headsep-0.5\linewidth}[0pt][0pt]{%
+    \rlap{\hspace{\dimexpr \margin+\textheight+\footskip}%
+    \llap{\rotatebox{90}{\thepage}}}}%
+\egroup\fi}
+\AddEverypageHook{\Lpagenumber}%
+
+
+\newcommand{\theinstitute}{Institute of Engineering}
+\newcommand{\thecampus}{Lalitpur Engineering College}
+\newcommand{\thedepartment}{Department of Computer Engineering}
+\newcommand{\thedepartmentAddress}{Lalitpur, Nepal}
+\newcommand{\thedepartmentFullAddress}{Patan, Lalitpur, Nepal}
+\newcommand{\theprojectcoordinator}{Er. Bibat Thokar}
+\newcommand{\theHOD}{Er. Praches Acharya}
+
+
+
+
+\title{SABDA-NER: A Nepali Named Entity Recognition Model}
+\newcommand{\theDegree}{Computer Engineering}
+
+\newcommand{\thesupervisor}{Er. Binod Sapkota}
+\newcommand{\WorkPlace}{Lalitpur Engineering College}
+
+\date{March, 2024}
+
+
+% \usepackage{natbib}
+\usepackage{url}  % Add this line to use \url
+
+ 

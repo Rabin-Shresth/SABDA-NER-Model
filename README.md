@@ -32,3 +32,19 @@ We have used **NLTK** (a toolkit build for working with NLP) for tokenization.
 * During our research we found Everest-NER from which we took reference. We will use Everest-NER dataset for training our model for the first phase. Our Sabda-NER dataset will be used as test dataset.
 * From our initial research we will be applying BERT model for our NER project.
 * Incoming challenges are further to be discussed.
+
+### Conclusion
+This project had taught us alot not only accomplishing the project but teamwork, time management and even value of time. I would like to thank my fellow teammates for all the valuable insights and dedication they provided. Those out there reading this you can find the reports in **Reports** section.
+
+You may reach out to us if you want any help regarding our project
+
+* [Rabin Shrestha](https://www.linkedin.com/in/rabin-shrestha-a0669a274/)
+* [Anup Dumre](https://www.linkedin.com/in/anupdumre/)
+
+
+## SABDA-NER-UI 
+
+[Github UI Link](https://github.com/Rabin-Shresth/SABDA-NER-UI)
+
+
+

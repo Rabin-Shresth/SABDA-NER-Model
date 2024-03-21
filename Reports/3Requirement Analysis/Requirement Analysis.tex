@@ -1,0 +1,183 @@
+\chapter{REQUIREMENT ANALYSIS}
+\vspace{10pt}
+
+As our project focuses on getting nepali text as input and analyzing its named entity and generating named entitys, it is assumed that the most of the 
+requirements in our project is fulfilled by software requirements. This doesn’t imply 
+though that there is no use of hardware in our project. The requirement analysis of our 
+project is presented below with descriptive subheadings
+\section{Hardware Requirements}
+\subsection{GPU}
+Any decent computer can fulfil the hardware requirements for our project. The machine 
+learning model was trained using Google Colab, which provides powerful processing 
+capabilities from the cloud. However, if we were to train the model on our own, a 
+powerful PC with a fast and robust CPU, higher RAM and storage, and an exceptional 
+GPU or TPU would be necessary. This is due to the resource-intensive nature of 
+machine learning, as it involves handling large amounts of data and requires significant 
+training time. Furthermore, for deploying and performing our task, an UI was needed 
+to display the output. Now, although, we are not at present planning to deploy it in order 
+to receive calls, but if we were to receive calls from customers, then an even more 
+powerful computer with superior processing and handling abilities would be required 
+and this depends on the scale and reach of the company implementing our technology 
+itself.
+\section{Software Requirements}
+Our project is almost totally software based. The code was written in Python 
+programming language. Using Python, machine learning can be done easily, and 
+frameworks like TensorFlow can be used for deep learning. To train the machine 
+learning model, Google Colab, which is a free, cloud based service is used that gives 
+us access to the GPU and CPU from the cloud. The testing of the model can be obtained 
+in the software such as PyCharm, which is a Python IDE. And also Visual Studio Code 
+was used to test the machine learning model and produce different results.
+\subsection{Python}
+Python is one of the most popular programming language in the world. It is a language 
+that can be used easily for machine learning. Python offers us with a wealth of libraries 
+and frameworks that support the development and deployment of machine learning 
+models. The simplicity and readability of Python, along with its ability to handle 
+numerical computations and data manipulation, make it well suited for implementing 
+machine learning algorithms. Popular libraries such as TensorFlow, PyTorch, and 
+Scikit-learn provide a range of tools for tasks such as deep learning, computer vision, 
+and natural language processing. With its active community and growing industry 
+demand for machine learning expertise, Python is a valuable skill for anyone interested 
+in the field. Thus without a doubt, python is the go to language for us in this project.
+\subsection{Google-Colab}
+Google Colab is a free online platform for machine learning and data science research. 
+It provides access to a Jupyter Notebook environment, running in the cloud, with free 
+access to GPUs and TPUs (Tensor Processing Units) for acceleration. This makes it 
+easy for data scientists and researchers to develop and run large scale machine learning 
+experiments and analyze complex data sets. Google Colab also provides integration 
+with Google Drive, making it simple to save and share notebooks, as well as to import 
+and export data. The platform supports popular machine learning libraries such as 
+TensorFlow, PyTorch, and scikit-learn, and provides a web-based interface for 
+developing and executing code. With its ease of use, powerful computing resources, 
+and seamless integration with other Google services, Google Colab has become a 
+popular choice for data scientists and researchers.
+
+\subsection{Javascript}
+To create dynamic and interactive websites, JavaScript plays a pivotal role alongside HTML and CSS. HTML establishes the structure of the webpage, defining elements like headings, paragraphs, and images. CSS, on the other hand, styles the layout, ensuring a visually appealing presentation. JavaScript, a client-side scripting language, breathes life into the static structure and styling. It enables real-time interactions and responsiveness by allowing the manipulation of HTML elements and dynamically updating content. With JavaScript, developers can implement features such as form validation, image sliders, and responsive navigation menus. By seamlessly integrating these three technologies, web developers can craft engaging and user-friendly websites that not only convey information but also provide an immersive and interactive user experience.
+
+\section{Libraries Required}
+\subsection{TensorFlow}
+TensorFlow is an open-source machine learning framework developed by Google Brain 
+Team. It was released in 2015 and has since become one of the most popular libraries 
+for building and training machine learning models. TensorFlow allows developers to 
+build and deploy machine learning models, both for research and production, by 
+providing a comprehensive set of tools and APIs. The framework provides a low-level API for defining and executing computations as a graph of tensors, as well as a 
+higherlevel API for building and training models using pre-made estimators. 
+TensorFlow supports a wide range of applications, including image and speech 
+recognition, natural language processing, and generative models. It also provides tools 
+for deploying models on multiple platforms, including on-premises, cloud, and mobile 
+devices.
+\subsection{NumPy}
+NumPy is a library for the Python programming language that is used for scientific 
+computing and data analysis. It provides support for large, multi-dimensional arrays 
+and matrices, along with a collection of high-level mathematical functions to operate 
+on these arrays. NumPy provides a set of tools for performing numerical calculations 
+and scientific computing tasks, making it a powerful library for data analysis and 
+machine learning applications. The library is written in C and Python, and provides fast 
+and efficient array processing capabilities.
+NumPy provides a set of powerful tools for creating, manipulating, and operating on 
+these arrays, including functions for array slicing, indexing, and reshaping. NumPy also 
+provides a variety of mathematical functions for performing common operations on 
+arrays, such as element-wise addition, subtraction, multiplication, and division, as well as more advanced functions for linear algebra, Fourier transforms, and statistical 
+analysis. NumPy is widely used in the Python data science community and is a 
+fundamental library for many popular data science and machine learning libraries such 
+as pandas, SciPy, and scikit-learn. Its efficient array processing capabilities and wide 
+range of mathematical functions make it a powerful tool for data analysis and machine 
+learning applications, allowing users to perform complex computations on large 
+datasets quickly and easily. In addition to its functionality, NumPy integrates well with 
+other scientific computing libraries in Python, such as SciPy and Matplotlib, making it 
+a popular choice for data scientists and machine learning practitioners.
+\subsection{Matplotlib}
+Matplotlib is a data visualization library for the Python programming language. It 
+provides a high-level interface for creating a wide range of static, animated, and
+interactive visualizations. Matplotlib can be used to visualize data in a variety of 
+formats, including line plots, bar charts, scatter plots, histograms, and heatmaps, among 
+others. The library is highly customizable, allowing users to adjust the appearance of 
+their visualizations to meet their specific needs. In addition, Matplotlib has built-in 
+support for displaying visualizations in different formats, such as in Jupyter notebooks, 
+as well as for saving visualizations to various file formats, including PNG, PDF, and 
+SVG. Matplotlib is widely used by data scientists and researchers for exploratory data 
+analysis, as well as for creating visualizations for presentations and publications.
+\subsection{Scikit-Learn}
+Scikit-learn is a free, open-source machine learning library for Python. It provides a 
+comprehensive set of tools for tasks such as classification, regression, clustering, and 
+model selection. Built on top of NumPy and SciPy, scikit-learn is designed to be 
+accessible and easy to use. It integrates well with other popular Python data science 
+libraries, such as NumPy, Pandas, and Matplotlib. Scikit-learn is widely used in 
+industry, academia, and research, and is considered one of the most important machine 
+learning libraries for Python. It is suitable for both small and large data sets, and 
+supports a wide range of algorithms for supervised and unsupervised learning, as well 
+as for preprocessing and evaluation. With its powerful features and ease of use, scikit learn is a go-to tool for many data scientists and machine learning practitioners.
+\subsection{Pandas}
+Pandas is a vital tool in the machine learning domain due to its ability to handle data 
+effectively. It offers two key data structures, Series and DataFrame, which enable users 
+to organize and manipulate data efficiently. The DataFrame, resembling a spreadsheet, 
+is especially valuable as it allows data scientists to work with labeled and structured 
+data, making it suitable for various machine learning tasks. Pandas simplifies the data 
+preprocessing phase by providing a wide range of built-in functions and methods for 
+tasks like data cleaning, transformation, and feature engineering. These capabilities 
+ensure that the data is well-prepared and in a suitable format for training machine 
+learning models.
+Moreover, Pandas supports data exploration and analysis, which are crucial steps in 
+understanding the underlying patterns and relationships within the dataset. Its powerful 
+grouping, aggregation, and statistical computation features enable data scientists to gain 
+valuable insights from the data quickly. Additionally, Pandas seamlessly integrates with 
+other Python libraries commonly used in machine learning, such as NumPy and 
+Scikitlearn, facilitating smooth data interchange and enhancing the overall workflow. 
+Overall, Pandas simplifies and streamlines various data-related tasks in machine 
+learning, making it an essential tool for data scientists to effectively prepare, explore, 
+and analyse data, ultimately leading to more accurate and successful machine learning 
+models.
+\subsection{Keras}
+Keras is a widely used high-level deep learning library that has become a go-to choice 
+for machine learning practitioners. Its simplicity and user-friendly interface make it 
+accessible to all levels of expertise. With its modularity and pre-built layers, activation 
+functions, and optimization algorithms, Keras simplifies the process of constructing 
+and training complex neural network architectures. It offers seamless integration with 
+popular deep learning frameworks like TensorFlow and Theano, enabling users to 
+harness the power of these underlying libraries while benefiting from Keras' easy-touse 
+abstractions. Whether for small-scale experiments or large-scale production 
+deployments, Keras's flexibility and compatibility make it an indispensable tool in the 
+machine learning toolkit, empowering researchers and practitioners to tackle diverse 
+and challenging machine learning tasks effectively.
+\subsection{Tkinter}
+Tkinter is a Python library that provides a simple and easy-to-use interface for creating 
+graphical user interfaces (GUIs). It is based on the Tcl/Tk GUI toolkit and allows 
+developers to create windows, buttons, labels, and other GUI components. Tkinter is 
+included with Python by default, making it a convenient choice for developers who 
+want to create cross-platform GUI applications without having to install additional 
+libraries.
+Tkinter's main strength is its ease of use. It provides a set of widgets that can be 
+customized using various configuration options, and supports event-driven 
+programming using the "bind" method to bind events to callbacks. While Tkinter may 
+not be as feature-rich as some other GUI toolkits, it is a great choice for beginners who 
+want to learn GUI programming in Python. Additionally, Tkinter can be extended using 
+third-party libraries such as ttk and PIL, which provide additional widgets and 
+functionality.
+
+\subsection{React}
+React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
+
+\section{Feasibility Analysis}
+\subsection{Economic Feasibility} 
+Currently, this project is entirely software-based, making it economically feasible. The 
+costs associated with this project include a high gpu computer, launching on the internet (if launched/hosted). Apart from this, there is no need for 
+any complex hardware, making this project a cost-effective solution.
+
+\subsection{Technical Feasibility}
+Our computing platform was Google Colab, which resources simple connectivity with Google Drive for data access.
+The pre-trained, BERT-based multilingual architecture forms the basis of the model creation process. We used a self-labeled test set that was specially modified to our requirements and an open-source dataset for training to fine-tune this model. The whole training process took place inside Google Colab, removing the requirement for complex local installations. We were able to easily train the model using the available tools and upload our dataset straight from Google Drive. Google Colab's user-friendly setting and group collaboration help us.
+
+In conclusion, the project successfully demonstrated the technical feasibility of the SABDA-NER model. Google Colab's accessibility and freely available resources greatly facilitated the development and training process, highlighting its potential for future NLP projects.
+
+\subsection{Schedule Feasibility}
+This project can be completed within the allotted time frame for the Major Project and 
+will be carried out as per the timestamps marked in the Gantt chart.
+
+\subsection{Operational feasibility}
+The operational feasibility of the Nepali Named Entity Recognition (NER) system is promising, with robust technical support for the Nepali language, integration capabilities. Adequate availability of labeled training data and compatibility with existing systems enhances its usability. User acceptance is facilitated through intuitive interfaces, and maintenance is supported by updates. Legal compliance and security measures are prioritized to ensure ethical usage. A cost-benefit analysis highlights its cost-effectiveness. Overall, the NER system demonstrates operational feasibility, positioning it for successful deployment and sustained effectiveness in identifying named entities in Nepali text.
+
+\subsection{Legal Feasibility}
+All the software tools and algorithms that are being used in this project is ‘Free to use’ 
+or ‘Free to modify’. Since the majority of the implementation is conducted 
+independently, there are no legal obstacles that would render the project legally 
+infeasible.
